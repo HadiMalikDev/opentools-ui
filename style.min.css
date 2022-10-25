@@ -656,13 +656,6 @@ video {
   position: sticky;
 }
 
-.inset-0 {
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-}
-
 .-inset-1 {
   top: -0.25rem;
   right: -0.25rem;
@@ -1867,10 +1860,6 @@ video {
           background-clip: text;
 }
 
-.bg-\[bottom_1px_center\] {
-  background-position: bottom 1px center;
-}
-
 .bg-repeat {
   background-repeat: repeat;
 }
@@ -2599,16 +2588,6 @@ video {
 
 .focus\:hover\:text-center:hover:focus {
   text-align: center;
-}
-
-@media (prefers-color-scheme: dark) {
-  .dark\:border-b {
-    border-bottom-width: 1px;
-  }
-
-  .dark\:bg-bottom {
-    background-position: bottom;
-  }
 }
 
 @media (min-width: 640px) {
