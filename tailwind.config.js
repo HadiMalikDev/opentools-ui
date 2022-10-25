@@ -31,8 +31,7 @@ module.exports = {
       }
     },
     fontFamily: {
-      Inter: ['Inter'],
-      EinaBold: ['EinaBold', "system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji"],
+      Inter: ['Inter', 'sans-serif'],
     },
     container: {
       center: true,

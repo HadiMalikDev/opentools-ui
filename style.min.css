@@ -2052,7 +2052,7 @@ video {
 }
 
 .font-Inter {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
 }
 
 .text-sm {
