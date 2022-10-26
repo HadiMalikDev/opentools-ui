@@ -663,12 +663,20 @@ video {
   left: -0.25rem;
 }
 
-.top-\[-256px\] {
-  top: -256px;
+.left-0 {
+  left: 0px;
 }
 
 .bottom-0 {
   bottom: 0px;
+}
+
+.top-\[-237px\] {
+  top: -237px;
+}
+
+.top-\[-256px\] {
+  top: -256px;
 }
 
 .isolate {
@@ -683,8 +691,12 @@ video {
   z-index: 50;
 }
 
-.-z-10 {
-  z-index: -10;
+.z-\[60\] {
+  z-index: 60;
+}
+
+.z-\[2\] {
+  z-index: 2;
 }
 
 .z-40 {
@@ -701,6 +713,10 @@ video {
 
 .z-10 {
   z-index: 10;
+}
+
+.-z-10 {
+  z-index: -10;
 }
 
 .float-right {
@@ -771,10 +787,6 @@ video {
   margin-top: 1.5rem;
 }
 
-.mt-52 {
-  margin-top: 13rem;
-}
-
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -789,6 +801,10 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-52 {
+  margin-top: 13rem;
 }
 
 .mt-2 {
@@ -895,6 +911,10 @@ video {
   height: 1.5rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -915,6 +935,10 @@ video {
   height: 48px;
 }
 
+.h-\[2px\] {
+  height: 2px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -933,6 +957,10 @@ video {
 
 .w-\[48px\] {
   width: 48px;
+}
+
+.w-36 {
+  width: 9rem;
 }
 
 .max-w-5xl {
@@ -1857,13 +1885,13 @@ video {
   border-color: rgb(229 231 235/1);
 }
 
-.bg-slate-900 {
-  background-color: rgb(15 23 42/1);
-}
-
 .bg-\[\#f8fbff\] {
   --tw-bg-opacity: 1;
   background-color: rgb(248 251 255 / var(--tw-bg-opacity));
+}
+
+.bg-slate-900 {
+  background-color: rgb(15 23 42/1);
 }
 
 .bg-\[\#fff\] {
@@ -2064,12 +2092,8 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
+.pb-14 {
+  padding-bottom: 3.5rem;
 }
 
 .pt-4 {
@@ -2080,16 +2104,20 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.pt-20 {
+  padding-top: 5rem;
+}
+
 .pb-24 {
   padding-bottom: 6rem;
 }
 
-.pb-14 {
-  padding-bottom: 3.5rem;
-}
-
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .text-left {
@@ -2148,24 +2176,8 @@ video {
   vertical-align: super;
 }
 
-.font-Inter {
-  font-family: Inter, sans-serif;
-}
-
-.font-soehnebreit {
-  font-family: soehne-breit-buch, sans-serif;
-}
-
-.font-soehnebuch {
-  font-family: soehne-buch, sans-serif;
-}
-
-.font-IBMPlexMonoMedium {
-  font-family: IBMPlexMono-Medium, sans-serif;
-}
-
-.font-SpaceGrotesk {
-  font-family: SpaceGrotesk, sans-serif;
+.font-systemui {
+  font-family: system-ui, sans-serif;
 }
 
 .text-sm {
@@ -2201,12 +2213,12 @@ video {
   font-weight: 500;
 }
 
-.font-normal {
-  font-weight: 400;
-}
-
 .font-bold {
   font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .uppercase {
@@ -2668,27 +2680,11 @@ video {
 }
 
 @font-face {
-  font-family: soehne-breit-buch;
+  font-family: system-ui;
 
-  src: url(fonts/soehne-breit-buch.woff2);
-}
+  font-style: normal;
 
-@font-face {
-  font-family: soehne-buch;
-
-  src: url(fonts/soehne-buch.woff2);
-}
-
-@font-face {
-  font-family: IBMPlexMono-Medium;
-
-  src: url(fonts/IBMPlexMono-Medium.woff2);
-}
-
-@font-face {
-  font-family: SpaceGrotesk;
-
-  src: url(fonts/SpaceGrotesk-Bold.otf);
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
 
 .wave-big-1 {
@@ -2726,6 +2722,14 @@ video {
 .wave-big-3 {
   -webkit-animation: wave-big 480s cubic-bezier(.36,.45,.63,.53) -.125s infinite;
   animation: wave-big 480s cubic-bezier(.36,.45,.63,.53) -.125s infinite;
+}
+
+.banner {
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-image: url(images/grid-xl.svg);
+  mask-image: url(images/grid-xl.svg);
+  background: rgb(255 255 255/1);
 }
 
 .hover\:bg-slate-700:hover {
@@ -2912,6 +2916,10 @@ video {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:pt-24 {
+    padding-top: 6rem;
   }
 
   .lg\:pt-32 {

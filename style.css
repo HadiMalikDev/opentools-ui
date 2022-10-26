@@ -2,27 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-  font-family: soehne-breit-buch;
-  src: url(fonts/soehne-breit-buch.woff2);
+  font-family: system-ui;
+  font-style: normal;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
-
-@font-face {
-  font-family: soehne-buch;
-  src: url(fonts/soehne-buch.woff2);
-}
-
-@font-face {
-  font-family: IBMPlexMono-Medium;
-  src: url(fonts/IBMPlexMono-Medium.woff2);
-}
-
-@font-face {
-  font-family: SpaceGrotesk;
-  src: url(fonts/SpaceGrotesk-Bold.otf);
-}
-
 
 .wave-big-1 {
   animation: wave-big 240s cubic-bezier(.36,.45,.63,.53) infinite;
@@ -46,4 +30,12 @@
 .wave-big-3 {
   -webkit-animation: wave-big 480s cubic-bezier(.36,.45,.63,.53) -.125s infinite;
   animation: wave-big 480s cubic-bezier(.36,.45,.63,.53) -.125s infinite;
+}
+
+.banner {
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-image: url(images/grid-xl.svg);
+  mask-image: url(images/grid-xl.svg);
+  background: rgb(255 255 255/1);
 }

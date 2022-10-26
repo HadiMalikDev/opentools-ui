@@ -10,15 +10,17 @@
   <link rel="stylesheet" href="style.min.css">
   <title>Open Tools</title>
 </head>
-<body class="font-Inter">
+<body class="font-systemui">
   <header class="z-50 w-full flex-none text-sm font-semibold leading-6 text-slate-900 bg-center bg-no-repeat border-b border-gray-200 shadow-[0_2px_4px_rgba(33,51,67,12%)]">
     <div class="container">
       <nav aria-label="Global" class="mx-auto max-w-container px-4 sm:px-6 lg:px-8">
         <div class="relative flex items-center py-[1rem]">
-          <a class="mr-auto flex-none text-primary text-2xl font-Inter font-semibold uppercase" href="/">OpenTools</a>
+          <a class="mr-auto flex-none text-primary text-2xl font-Inter font-semibold uppercase" href="/">
+            <img src="images/logo.png" alt="" class="w-36">
+          </a>
           <div class="hidden lg:flex lg:items-center">
-            <a class="ml-8 font-IBMPlexMonoMedium font-medium text-slate-700 text-base" href="/templates">Wordpress Tools</a>
-            <a class="ml-8 font-IBMPlexMonoMedium font-medium text-slate-700 text-base" href="/documentation">Biology</a>
+            <a class="ml-8 font-medium text-slate-700 text-base" href="/templates">Wordpress Tools</a>
+            <a class="ml-8 font-medium text-slate-700 text-base" href="/documentation">Biology</a>
           </div>
           <button type="button" class="-my-1 ml-6 -mr-1 flex h-8 w-8 items-center justify-center lg:hidden">
             <span class="sr-only">Open navigation</span>
@@ -31,13 +33,6 @@
     </div>
   </header>
 
-  <section class="relative max-w-5xl mx-auto pt-20 pb-20 px-5 sm:pt-24 lg:pt-32">
-    <h1 class="text-slate-900 font-normal font-soehnebreit text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white">Rapidly build modern websites without ever leaving your HTML.</h1>
-    <p class="mt-6 font-soehnebuch font-normal text-lg text-slate-600 text-center max-w-3xl mx-auto dark:text-slate-400">A utility-first CSS framework packed with classes lik <code class="font-medium text-sky-500 dark:text-sky-400">flex</code> <code class="font-medium text-sky-500 dark:text-sky-400">pt-4</code>,<!-- --> <code class="font-medium text-sky-500 dark:text-sky-400">text-center</code> <!-- -->and<!-- --> <code class="font-medium text-sky-500 dark:text-sky-400">rotate-90</code> <!-- -->that can be composed to build any design, directly in your markup.</p>
-    <div class="mt-6 sm:mt-10 flex justify-center space-x-6 text-sm">
-      <a class="bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 text-[#fff] font-bold font-IBMPlexMonoMedium h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto " href="#tools">Explore Tools</a>
-    </div>
-  </section>
 
   <main class=" bg-[#f8fbff] relative">
     <div class="absolute top-[-256px] w-full h-64 overflow-hidden -z-10">
@@ -47,18 +42,28 @@
       <div class="absolute bottom-0 h-64 w-full wave-big-3 bg-[url('images/wave-big-3.svg')] z-10"></div>
     </div>
 
-    <section class="py-20 mt-52 relative" id="tools">
+    <section class="relative pt-20 pb-20 px-5 sm:pt-24 lg:pt-32">
+      <div class="max-w-5xl mx-auto">
+        <h1 class="text-slate-900 font-normal text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white">Rapidly build modern websites without ever leaving your HTML.</h1>
+        <p class="mt-6 font-normal text-lg text-slate-600 text-center max-w-3xl mx-auto dark:text-slate-400">A utility-first CSS framework packed with classes lik <code class="font-medium text-sky-500 dark:text-sky-400">flex</code> <code class="font-medium text-sky-500 dark:text-sky-400">pt-4</code>,<!-- --> <code class="font-medium text-sky-500 dark:text-sky-400">text-center</code> <!-- -->and<!-- --> <code class="font-medium text-sky-500 dark:text-sky-400">rotate-90</code> <!-- -->that can be composed to build any design, directly in your markup.</p>
+        <div class="mt-6 sm:mt-10 flex justify-center space-x-6 text-sm">
+          <a class="bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 text-[#fff] font-bold font-IBMPlexMonoMedium h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto " href="#tools">Explore Tools</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 mt-52 relative z-20" id="tools">
       <div class="container overflow-hidden pb-5">
         <div class="space-y-12 sm:grid xl:grid-cols-3 sm:gap-12 sm:space-y-0 lg:gap-x-8 px-4 sm:px-14">
           <a href="#" class="divide-y divide-gray-200 rounded-lg bg-[#fff] shadow-md">
             <div class="flex w-full items-center justify-between space-x-6 p-6 ">
               <div class="flex-1">
                 <div class="flex items-center space-x-3">
-                  <h3 class="truncate text-lg font-soehnebreit font-bold text-gray-900">
+                  <h3 class="truncate text-lg font-bold text-gray-900">
                    Mail Merge with Attachments
                   </h3>
                 </div>
-                <p class="mt-1 text-sm font-soehnebreit font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
+                <p class="mt-1 text-sm font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
               </div>
               <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga01.png" loading="lazy">
             </div>
@@ -68,11 +73,11 @@
             <div class="flex w-full items-center justify-between space-x-6 p-6">
               <div class="flex-1">
                 <div class="flex items-center space-x-3">
-                  <h3 class="truncate text-lg font-soehnebreit font-bold text-gray-900">
+                  <h3 class="truncate text-lg font-bold text-gray-900">
                     Document Studio
                   </h3>
                 </div>
-                <p class="mt-1 text-sm font-soehnebreit font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
+                <p class="mt-1 text-sm font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
               </div>
               <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga08.png" loading="lazy">
             </div>
@@ -82,11 +87,11 @@
             <div class="flex w-full items-center justify-between space-x-6 p-6">
               <div class="flex-1">
                 <div class="flex items-center space-x-3">
-                  <h3 class="truncate text-lg font-soehnebreit font-bold text-gray-900">
+                  <h3 class="truncate text-lg font-bold text-gray-900">
                     Google Forms Email Notifications
                   </h3>
                 </div>
-                <p class="mt-1 text-sm font-soehnebreit font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
+                <p class="mt-1 text-sm font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
               </div>
               <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga01.png" loading="lazy"></div>
           </a>
@@ -95,11 +100,11 @@
             <div class="flex w-full items-center justify-between space-x-6 p-6">
               <div class="flex-1">
                 <div class="flex items-center space-x-3">
-                  <h3 class="truncate text-lg font-soehnebreit font-bold text-gray-900">
+                  <h3 class="truncate text-lg font-bold text-gray-900">
                     Email Google Spreadsheets
                   </h3>
                 </div>
-                <p class="mt-1 text-sm font-soehnebreit font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
+                <p class="mt-1 text-sm font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
               </div>
               <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga08.png" loading="lazy"></div>
           </a>
@@ -108,11 +113,11 @@
             <div class="flex w-full items-center justify-between space-x-6 p-6">
               <div class="flex-1">
                 <div class="flex items-center space-x-3">
-                  <h3 class="truncate text-lg font-soehnebreit font-bold text-gray-900">
+                  <h3 class="truncate text-lg font-bold text-gray-900">
                     Save Emails and Attachments
                   </h3>
                 </div>
-                <p class="mt-1 text-sm font-soehnebreit font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
+                <p class="mt-1 text-sm font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
               </div>
               <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga01.png" loading="lazy"></div>
           </a>
@@ -121,11 +126,11 @@
             <div class="flex w-full items-center justify-between space-x-6 p-6">
               <div class="flex-1">
                 <div class="flex items-center space-x-3">
-                  <h3 class="truncate text-lg font-soehnebreit font-bold text-gray-900">
+                  <h3 class="truncate text-lg font-bold text-gray-900">
                     Creator Studio for Google Slides
                   </h3>
                 </div>
-                <p class="mt-1 text-sm font-soehnebreit font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
+                <p class="mt-1 text-sm font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
               </div>
               <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga02.png" loading="lazy"></div>
           </a>
@@ -134,11 +139,11 @@
             <div class="flex w-full items-center justify-between space-x-6 p-6">
               <div class="flex-1">
                 <div class="flex items-center space-x-3">
-                  <h3 class="truncate text-lg font-soehnebreit font-bold text-gray-900">
+                  <h3 class="truncate text-lg font-bold text-gray-900">
                     Email Google Spreadsheets
                   </h3>
                 </div>
-                <p class="mt-1 text-sm font-soehnebreit font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
+                <p class="mt-1 text-sm font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
               </div>
               <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga01.png" loading="lazy"></div>
           </a>
@@ -147,11 +152,11 @@
             <div class="flex w-full items-center justify-between space-x-6 p-6">
               <div class="flex-1">
                 <div class="flex items-center space-x-3">
-                  <h3 class="truncate text-lg font-soehnebreit font-bold text-gray-900">
+                  <h3 class="truncate text-lg font-bold text-gray-900">
                    Mail Merge with Attachments
                   </h3>
                 </div>
-                <p class="mt-1 text-sm font-soehnebreit font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
+                <p class="mt-1 text-sm font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
               </div>
               <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga02.png" loading="lazy"></div>
           </a>
@@ -160,11 +165,11 @@
             <div class="flex w-full items-center justify-between space-x-6 p-6">
               <div class="flex-1">
                 <div class="flex items-center space-x-3">
-                  <h3 class="truncate text-lg font-soehnebreit font-bold text-gray-900">
+                  <h3 class="truncate text-lg font-bold text-gray-900">
                     Mail Merge with Attachments
                   </h3>
                 </div>
-                <p class="mt-1 text-sm font-soehnebreit font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
+                <p class="mt-1 text-sm font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
               </div>
               <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga16.png" loading="lazy"></div>
           </a>
@@ -173,11 +178,11 @@
             <div class="flex w-full items-center justify-between space-x-6 p-6">
               <div class="flex-1">
                 <div class="flex items-center space-x-3">
-                  <h3 class="truncate text-lg font-soehnebreit font-bold text-gray-900">
+                  <h3 class="truncate text-lg font-bold text-gray-900">
                     Mail Merge with Attachments
                   </h3>
                 </div>
-                <p class="mt-1 text-sm font-soehnebreit font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
+                <p class="mt-1 text-sm font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
               </div>
               <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga01.png" loading="lazy"></div>
           </a>
@@ -186,11 +191,11 @@
             <div class="flex w-full items-center justify-between space-x-6 p-6">
               <div class="flex-1">
                 <div class="flex items-center space-x-3">
-                  <h3 class="truncate text-lg font-soehnebreit font-bold text-gray-900">
+                  <h3 class="truncate text-lg font-bold text-gray-900">
                     Mail Merge with Attachments
                   </h3>
                 </div>
-                <p class="mt-1 text-sm font-soehnebreit font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
+                <p class="mt-1 text-sm font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
               </div>
               <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga01.png" loading="lazy"></div>
           </a>
@@ -199,11 +204,11 @@
             <div class="flex w-full items-center justify-between space-x-6 p-6">
               <div class="flex-1">
                 <div class="flex items-center space-x-3">
-                  <h3 class="truncate text-lg font-soehnebreit font-bold text-gray-900">
+                  <h3 class="truncate text-lg font-bold text-gray-900">
                     Mail Merge with Attachments
                   </h3>
                 </div>
-                <p class="mt-1 text-sm font-soehnebreit font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
+                <p class="mt-1 text-sm font-normal text-gray-500 line-clamp-2">Send personalized email to your contacts with Google Sheets &amp; Gmail</p>
               </div>
               <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga01.png" loading="lazy"></div>
           </a>
@@ -221,11 +226,11 @@
                 <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga08.png" loading="lazy">
               </div>
               <div class="flex items-start mt-5">
-                <h3 class="truncate text-2xl font-soehnebreit font-bold text-gray-900">
+                <h3 class="truncate text-2xl font-bold text-gray-900">
                   Document Studio
                 </h3>
               </div>
-              <p class="mt-3 md:mt-4 leading-relaxed font-soehnebreit font-normal text-base text-[rgb(87_94_119)] line-clamp-2 ">We crawl and index your entire website, just like Google. As soon as we detect a broken link on your site, we'll notify you</p>
+              <p class="mt-3 md:mt-4 leading-relaxed font-normal text-base text-[rgb(87_94_119)] line-clamp-2 ">We crawl and index your entire website, just like Google. As soon as we detect a broken link on your site, we'll notify you</p>
             </div>
           </a>
 
@@ -235,11 +240,11 @@
                 <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga08.png" loading="lazy">
               </div>
               <div class="flex items-start mt-5">
-                <h3 class="truncate text-2xl font-soehnebreit font-bold text-gray-900">
+                <h3 class="truncate text-2xl font-bold text-gray-900">
                   Document Studio
                 </h3>
               </div>
-              <p class="mt-3 md:mt-4 leading-relaxed font-soehnebreit font-normal text-base text-[rgb(87_94_119)] line-clamp-2 ">We crawl and index your entire website, just like Google. As soon as we detect a broken link on your site, we'll notify you</p>
+              <p class="mt-3 md:mt-4 leading-relaxed font-normal text-base text-[rgb(87_94_119)] line-clamp-2 ">We crawl and index your entire website, just like Google. As soon as we detect a broken link on your site, we'll notify you</p>
             </div>
           </a>
 
@@ -249,11 +254,11 @@
                 <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga08.png" loading="lazy">
               </div>
               <div class="flex items-start mt-5">
-                <h3 class="truncate text-2xl font-soehnebreit font-bold text-gray-900">
+                <h3 class="truncate text-2xl font-bold text-gray-900">
                   Document Studio
                 </h3>
               </div>
-              <p class="mt-3 md:mt-4 leading-relaxed font-soehnebreit font-normal text-base text-[rgb(87_94_119)] line-clamp-2 ">We crawl and index your entire website, just like Google. As soon as we detect a broken link on your site, we'll notify you</p>
+              <p class="mt-3 md:mt-4 leading-relaxed font-normal text-base text-[rgb(87_94_119)] line-clamp-2 ">We crawl and index your entire website, just like Google. As soon as we detect a broken link on your site, we'll notify you</p>
             </div>
           </a>
 
@@ -263,11 +268,11 @@
                 <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga08.png" loading="lazy">
               </div>
               <div class="flex items-start mt-5">
-                <h3 class="truncate text-2xl font-soehnebreit font-bold text-gray-900">
+                <h3 class="truncate text-2xl font-bold text-gray-900">
                   Document Studio
                 </h3>
               </div>
-              <p class="mt-3 md:mt-4 leading-relaxed font-soehnebreit font-normal text-base text-[rgb(87_94_119)] line-clamp-2 ">We crawl and index your entire website, just like Google. As soon as we detect a broken link on your site, we'll notify you</p>
+              <p class="mt-3 md:mt-4 leading-relaxed font-normal text-base text-[rgb(87_94_119)] line-clamp-2 ">We crawl and index your entire website, just like Google. As soon as we detect a broken link on your site, we'll notify you</p>
             </div>
           </a>
 
@@ -277,11 +282,11 @@
                 <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga08.png" loading="lazy">
               </div>
               <div class="flex items-start mt-5">
-                <h3 class="truncate text-2xl font-soehnebreit font-bold text-gray-900">
+                <h3 class="truncate text-2xl font-bold text-gray-900">
                   Document Studio
                 </h3>
               </div>
-              <p class="mt-3 md:mt-4 leading-relaxed font-soehnebreit font-normal text-base text-[rgb(87_94_119)] line-clamp-2 ">We crawl and index your entire website, just like Google. As soon as we detect a broken link on your site, we'll notify you</p>
+              <p class="mt-3 md:mt-4 leading-relaxed font-normal text-base text-[rgb(87_94_119)] line-clamp-2 ">We crawl and index your entire website, just like Google. As soon as we detect a broken link on your site, we'll notify you</p>
             </div>
           </a>
 
@@ -291,11 +296,11 @@
                 <img class="h-10 w-10 flex-shrink-0" alt="Mail Merge with Attachments" src="https://www.labnol.org/images/google/ga08.png" loading="lazy">
               </div>
               <div class="flex items-start mt-5">
-                <h3 class="truncate text-2xl font-soehnebreit font-bold text-gray-900">
+                <h3 class="truncate text-2xl font-bold text-gray-900">
                   Document Studio
                 </h3>
               </div>
-              <p class="mt-3 md:mt-4 leading-relaxed font-soehnebreit font-normal text-base text-[rgb(87_94_119)] line-clamp-2 ">We crawl and index your entire website, just like Google. As soon as we detect a broken link on your site, we'll notify you</p>
+              <p class="mt-3 md:mt-4 leading-relaxed font-normal text-base text-[rgb(87_94_119)] line-clamp-2 ">We crawl and index your entire website, just like Google. As soon as we detect a broken link on your site, we'll notify you</p>
             </div>
           </a>
         </div>

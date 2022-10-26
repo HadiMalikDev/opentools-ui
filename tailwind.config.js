@@ -32,12 +32,7 @@ module.exports = {
       }
     },
     fontFamily: {
-      Inter: ['Inter', 'sans-serif'],
-      soehnebreit: ['soehne-breit-buch', 'sans-serif'],
-      soehnebuch: ['soehne-buch', 'sans-serif'],
-      IBMPlexMonoMedium: ['IBMPlexMono-Medium', 'sans-serif'],
-      // Page2 fonts
-      SpaceGrotesk: ['SpaceGrotesk', 'sans-serif'],
+      systemui: ['system-ui', 'sans-serif'],
     },
     container: {
       center: true,
