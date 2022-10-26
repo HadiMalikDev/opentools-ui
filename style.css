@@ -18,6 +18,11 @@
   src: url(fonts/IBMPlexMono-Medium.woff2);
 }
 
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url(fonts/SpaceGrotesk-Bold.otf);
+}
+
 
 .wave-big-1 {
   animation: wave-big 240s cubic-bezier(.36,.45,.63,.53) infinite;

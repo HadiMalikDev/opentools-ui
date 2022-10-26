@@ -36,6 +36,8 @@ module.exports = {
       soehnebreit: ['soehne-breit-buch', 'sans-serif'],
       soehnebuch: ['soehne-buch', 'sans-serif'],
       IBMPlexMonoMedium: ['IBMPlexMono-Medium', 'sans-serif'],
+      // Page2 fonts
+      SpaceGrotesk: ['SpaceGrotesk', 'sans-serif'],
     },
     container: {
       center: true,

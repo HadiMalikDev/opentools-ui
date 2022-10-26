@@ -2034,9 +2034,9 @@ video {
   padding-right: 1rem;
 }
 
-.py-\[2\.125rem\] {
-  padding-top: 2.125rem;
-  padding-bottom: 2.125rem;
+.py-\[1rem\] {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .px-5 {
@@ -2152,16 +2152,20 @@ video {
   font-family: Inter, sans-serif;
 }
 
-.font-IBMPlexMonoMedium {
-  font-family: IBMPlexMono-Medium, sans-serif;
-}
-
 .font-soehnebreit {
   font-family: soehne-breit-buch, sans-serif;
 }
 
 .font-soehnebuch {
   font-family: soehne-buch, sans-serif;
+}
+
+.font-IBMPlexMonoMedium {
+  font-family: IBMPlexMono-Medium, sans-serif;
+}
+
+.font-SpaceGrotesk {
+  font-family: SpaceGrotesk, sans-serif;
 }
 
 .text-sm {
@@ -2679,6 +2683,12 @@ video {
   font-family: IBMPlexMono-Medium;
 
   src: url(fonts/IBMPlexMono-Medium.woff2);
+}
+
+@font-face {
+  font-family: SpaceGrotesk;
+
+  src: url(fonts/SpaceGrotesk-Bold.otf);
 }
 
 .wave-big-1 {
