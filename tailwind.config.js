@@ -25,6 +25,7 @@ module.exports = {
         600: 'rgb(22 163 74/1)'
       },
       slate: {
+        100: 'rgb(248 251 255/1)',
         600: 'rgb(71 85 105/1)',
         700: 'rgb(51 65 85/1)',
         900: 'rgb(15 23 42/1)'
@@ -32,6 +33,9 @@ module.exports = {
     },
     fontFamily: {
       Inter: ['Inter', 'sans-serif'],
+      soehnebreit: ['soehne-breit-buch', 'sans-serif'],
+      soehnebuch: ['soehne-buch', 'sans-serif'],
+      IBMPlexMonoMedium: ['IBMPlexMono-Medium', 'sans-serif'],
     },
     container: {
       center: true,

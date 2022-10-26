@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+  font-family: soehne-breit-buch;
+  src: url(fonts/soehne-breit-buch.woff2);
+}
+
+@font-face {
+  font-family: soehne-buch;
+  src: url(fonts/soehne-buch.woff2);
+}
+
+@font-face {
+  font-family: IBMPlexMono-Medium;
+  src: url(fonts/IBMPlexMono-Medium.woff2);
+}
+
+
+.wave-big-1 {
+  animation: wave-big 240s cubic-bezier(.36,.45,.63,.53) infinite;
+  background-repeat: repeat-x;
+  transform: translateZ(0);
+}
+
+@keyframes wave-big {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: -3000px;
+  }
+}
+
+.wave-big-2 {
+  animation: wave-big 560s cubic-bezier(.36,.45,.63,.53) -.125s infinite;
+}
+
+.wave-big-3 {
+  -webkit-animation: wave-big 480s cubic-bezier(.36,.45,.63,.53) -.125s infinite;
+  animation: wave-big 480s cubic-bezier(.36,.45,.63,.53) -.125s infinite;
+}
