@@ -8,40 +8,8 @@
   src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
 
-/* .wave-big-1 {
-  animation: wave-big 240s cubic-bezier(.36,.45,.63,.53) infinite;
-  background-repeat: repeat-x;
-  transform: translateZ(0);
-}
-
-@keyframes wave-big {
-  0% {
-    background-position: 0;
-  }
-  100% {
-    background-position: -3000px;
-  }
-}
-
-.wave-big-2 {
-  animation: wave-big 560s cubic-bezier(.36,.45,.63,.53) -.125s infinite;
-}
-
-.wave-big-3 {
-  -webkit-animation: wave-big 480s cubic-bezier(.36,.45,.63,.53) -.125s infinite;
-  animation: wave-big 480s cubic-bezier(.36,.45,.63,.53) -.125s infinite;
-} */
-
-/* .banner {
-  -webkit-mask-position: center;
-  mask-position: center;
-  -webkit-mask-image: url(images/grid-xl.svg);
-  mask-image: url(images/grid-xl.svg);
-  background: rgb(255 255 255/1);
-} */
-
 .banner {
-  mask-image: linear-gradient(to top, transparent, black);
-  -webkit-mask-image: linear-gradient(to top, transparent, black);
+  mask-image: linear-gradient(to top, transparent, black, #fff);
+  -webkit-mask-image: linear-gradient(to top, transparent, black, #fff);
   background-image: url(images/grid.svg);
 }
