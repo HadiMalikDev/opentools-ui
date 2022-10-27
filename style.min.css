@@ -2245,6 +2245,10 @@ video {
   color: rgb(67 56 202/1);
 }
 
+.text-slate-500 {
+  color: rgb(100 116 139/1);
+}
+
 .text-gray-400 {
   color: rgb(156 163 175/1);
 }
@@ -2602,8 +2606,8 @@ video {
 }
 
 .banner {
-  mask-image: linear-gradient(to top, transparent, black, #fff);
-  -webkit-mask-image: linear-gradient(to top, transparent, black, #fff);
+  mask-image: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.648), transparent);
+  -webkit-mask-image: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.648), transparent);
   background-image: url(images/grid.svg);
 }
 
