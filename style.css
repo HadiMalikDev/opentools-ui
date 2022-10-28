@@ -8,8 +8,7 @@
   src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
 
-.banner {
+.grid-bg {
   mask-image: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.648), transparent);
   -webkit-mask-image: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.648), transparent);
-  background-image: url(images/grid.svg);
 }
